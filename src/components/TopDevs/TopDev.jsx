@@ -21,7 +21,7 @@ const TopDev = ({ category }) => {
         {topDevs.map((dev) => (
           <div
             key={dev.id}
-            className="shadow shadow-gray-300 p-1 cursor-pointer w-[47%] md:w-[20%] relative h-fit min-h-[150px] md:h-[300px]"
+            className="shadow shadow-gray-300 p-1 cursor-pointer w-[47%] md:w-[20%] relative h-fit  max-h-[300px] md:h-[300px]"
           >
             <div className=" w-full relative h-[150px] md:h-2/3 ">
               <img
