@@ -11,19 +11,19 @@ const TopDev = ({ category }) => {
     </div>;
   }
   return (
-    <div className="h-fit w-full min-h-screen  flex flex-col  items-start">
+    <div className="h-fit w-full px-3 min-h-screen  flex flex-col  items-start">
       <h1 className="ml-[115px] text-2xl font-[600] text-gray-600 text-left my-7">
         {" "}
         {category ? category : "Top Rated Devs"}{" "}
         {category && <span className="uppercase"> Projects</span>}{" "}
       </h1>
-      <div className="flex w-full gap-3 flex-row items-center justify-center flex-wrap">
+      <div className="flex w-full gap-3 flex-row items-center justify-between md:justify-center flex-wrap">
         {topDevs.map((dev) => (
           <div
             key={dev.id}
-            className="shadow shadow-gray-300 p-1 cursor-pointer w-[40%] md:w-[20%] relative h-[350px] md:h-[300px]"
+            className="shadow shadow-gray-300 p-1 cursor-pointer w-[47%] md:w-[20%] relative h-fit min-h-[150px] md:h-[300px]"
           >
-            <div className=" w-full relative h-2/3 ">
+            <div className=" w-full relative h-[150px] md:h-2/3 ">
               <img
                 src={dev.userImage}
                 className="w-full h-full object-cover"
