@@ -39,7 +39,7 @@ const Profile = () => {
           style={opacityStyle}
           className={`absolute top-0 left-0   h-screen w-full`}
         >
-          <div className="w-full mt-[8vh] py-8 flex gap-3 px-[30px] flex-wrap ">
+          <div className="w-full mt-[8vh] py-8 items-center justify-between flex gap-3 px-[30px] flex-wrap ">
             {topDevs.map((dev) => (
               <div
                 key={dev.id}
