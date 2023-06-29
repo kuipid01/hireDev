@@ -3,28 +3,28 @@ export const categoriesData = [
 id:1,
 name:'Frontend Development',
 link:'frontend',
-categoryImageUrl: '/public/assets/img1.jpg',
+categoryImageUrl: '/assets/img1.jpg',
 description:'Best Frontend Engineers',
     },
     {
         id:2,
         link:'backend',
         name:'Backend Development',
-        categoryImageUrl: '/public/assets/img2.jpg',
+        categoryImageUrl: '/assets/img2.jpg',
         description:'Best Backend Engineers',
             },
             {
                 id:3,
                 link:'ai',
                 name:'Ai ',
-                categoryImageUrl: '/public/assets/img3.jpg',
+                categoryImageUrl: '/assets/img3.jpg',
                 description:'Ai and Data Engineers',
                     },
                     {
                         id:4,
                         link:'uiux',
                         name:'UI/UX',
-                        categoryImageUrl: '/public/assets/img6.jpg',
+                        categoryImageUrl: '/assets/img6.jpg',
                         description:'Best Frontend Engineers',
                             },
 ]
@@ -43,7 +43,7 @@ export const topDevs = [
                 name:'Romeo Peter',
                 expertise:['backend'],
                 stack:['Javascript','Php' ],
-                userImage: '/public/assets/img2.jpg',
+                userImage: '/assets/img2.jpg',
                 description:'Best Backend Engineers',
                 stars:5
                     },
@@ -52,7 +52,7 @@ export const topDevs = [
                         name:'Stanley Jacobs',
                         expertise:['Ai '],
                         stack:['python','Csharp' ],
-                        userImage: '/public/assets/img3.jpg',
+                        userImage: '/assets/img3.jpg',
                         description:'Ai and Data Engineers',
                         stars:5
                             },
@@ -61,7 +61,7 @@ export const topDevs = [
                                 name:'Philip Excel',
                                 expertise:['UI/UX'],
                                 stack:['Figma','Adobe', 'Product Design' ],
-                                userImage: '/public/assets/img6.jpg',
+                                userImage: '/assets/img6.jpg',
                                 description:'Best Frontend Engineers',
                                 stars:5
                                     },
@@ -71,7 +71,7 @@ id:5,
 name:'Stephen Adegoke',
 expertise:['Frontend','backend'],
 stack:['Javascript','Php' ,'ReactJs', 'Html' , 'Css'],
-userImage: '/public/assets/img1.jpg',
+userImage: '/assets/img1.jpg',
 description:'I am an experiened fullstack developer',
 stars:5
     },
@@ -80,7 +80,7 @@ stars:5
         name:'Romeo Peter',
         expertise:['backend'],
         stack:['Javascript','Php' ],
-        userImage: '/public/assets/img2.jpg',
+        userImage: '/assets/img2.jpg',
         description:'Best Backend Engineers',
         stars:5
             },
@@ -89,7 +89,7 @@ stars:5
                 name:'Stanley Jacobs',
                 expertise:['Ai '],
                 stack:['python','Csharp' ],
-                userImage: '/public/assets/img3.jpg',
+                userImage: '/assets/img3.jpg',
                 description:'Ai and Data Engineers',
                 stars:5
                     },
@@ -98,7 +98,7 @@ stars:5
                         name:'Philip Excel',
                         expertise:['UI/UX'],
                         stack:['Figma','Adobe', 'Product Design' ],
-                        userImage: '/public/assets/img6.jpg',
+                        userImage: '/assets/img6.jpg',
                         description:'Best Frontend Engineers',
                         stars:5
                             },
@@ -107,7 +107,7 @@ stars:5
                                 name:'Stephen Adegoke',
                                 expertise:['Frontend','backend'],
                                 stack:['Javascript','Php' ,'ReactJs', 'Html' , 'Css'],
-                                userImage: '/public/assets/img1.jpg',
+                                userImage: '/assets/img1.jpg',
                                 description:'I am an experiened fullstack developer',
                                 stars:5
                                     },
@@ -116,7 +116,7 @@ stars:5
                                         name:'Romeo Peter',
                                         expertise:['backend'],
                                         stack:['Javascript','Php' ],
-                                        userImage: '/public/assets/img2.jpg',
+                                        userImage: '/assets/img2.jpg',
                                         description:'Best Backend Engineers',
                                         stars:5
                                             },
@@ -125,7 +125,7 @@ stars:5
                                                 name:'Stanley Jacobs',
                                                 expertise:['Ai '],
                                                 stack:['python','Csharp' ],
-                                                userImage: '/public/assets/img3.jpg',
+                                                userImage: '/assets/img3.jpg',
                                                 description:'Ai and Data Engineers',
                                                 stars:5
                                                     },
@@ -134,7 +134,7 @@ stars:5
                                                         name:'Philip Excel',
                                                         expertise:['UI/UX'],
                                                         stack:['Figma','Adobe', 'Product Design' ],
-                                                        userImage: '/public/assets/img6.jpg',
+                                                        userImage: '/assets/img6.jpg',
                                                         description:'Best Frontend Engineers',
                                                         stars:5
                                                             },
