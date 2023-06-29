@@ -39,11 +39,11 @@ const Profile = () => {
           style={opacityStyle}
           className={`absolute top-0 left-0   h-screen w-full`}
         >
-          <div className="w-full mt-[8vh] py-8 items-center justify-between flex gap-3 px-[30px] flex-wrap ">
+          <div className="w-full mt-[8vh] py-8 items-center justify-between flex gap-3 px-[10px] md:px-[20px] flex-wrap ">
             {topDevs.map((dev) => (
               <div
                 key={dev.id}
-                className=" shadow shadow-purple-400 rounded-[10px] p-1 w-[150px] sm:w-[35%] md:w-[30%] h-fit relative  md:h-[500px] min-h-fit max-h-[400px]"
+                className=" shadow shadow-purple-400 rounded-[10px] p-1 w-[48%] sm:w-[35%] md:w-[30%] h-fit relative  md:h-[500px] min-h-fit max-h-[400px]"
               >
                 <div className=" w-full relative h-[70px] md:h-2/3 overflow-hidden  rounded-tr-[10px] rounded-tl-[10px]  ">
                   <img
