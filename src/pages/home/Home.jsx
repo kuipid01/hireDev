@@ -9,7 +9,7 @@ const Home = () => {
 <LandingPage/>
  <CustomSlider type='Trending'/> 
  <TopDev /> 
- <Slider /> 
+ {/* <Slider />  */}
     </>
   )
 }

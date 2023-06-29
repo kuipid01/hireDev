@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import { Link } from "react-router-dom";
 
-import { FaUser } from "react-icons/fa";
+import { FaAnchor, FaHamburger, FaSlash, FaUser } from "react-icons/fa";
 const Navbar = () => {
   const [scrollActive, setScrollActive] = useState(false);
 
@@ -19,7 +19,7 @@ const Navbar = () => {
   const user = null;
   return (
     <div
-      className={`w-full h-[15vh] relative transition-all z-[9999] ${
+      className={`  w-full h-[10vh] md:h-[15vh] relative transition-all z-[9999] ${
         scrollActive ? "bg-white text-gray-700 " : "text-white bg-purple-700"
       } sticky top-0 border-b border-gray-400 `}
     >
@@ -27,12 +27,13 @@ const Navbar = () => {
         <div>
           <Link to={"/"}>
             {" "}
-            <h1 className="text-3xl cursor-pointer">
-              HireDev <span className="text-xl text-gray-200"> .ng</span>{" "}
+            <h1 className="text-xl sm:text-3xl cursor-pointer">
+              HireDev <span className="text-[20px] md:text-xl -ml-1 text-gray-400"> .ng</span>{" "}
             </h1>{" "}
           </Link>
         </div>
-        <div className="flex h-full justify-center items-center">
+        <FaHamburger className="text-xl text-gray-400 flex sm:hidden"/>
+        <div className=" hidden sm:flex h-full justify-center items-center">
           <ul className="flex  gap-4 font-[400] mr-[3rem]">
             <Link to={"/category/frontend"}>
               <li className="cursor-pointer">Frontend</li>
