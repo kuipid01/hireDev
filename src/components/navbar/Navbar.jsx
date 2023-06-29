@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 
-import { Link } from "react-router-dom";
+import { Link ,useLocation} from "react-router-dom";
 
 import { FaAnchor, FaHamburger, FaSlash, FaUser } from "react-icons/fa";
 const Navbar = () => {
   const [scrollActive, setScrollActive] = useState(false);
-
+  const [path, setPath] = useState('');
   const checkScroll = () => {
     window.scrollY > 0 ? setScrollActive(true) : setScrollActive(false);
   };
@@ -16,7 +16,16 @@ const Navbar = () => {
       window.removeEventListener("scroll", checkScroll);
     };
   });
+  const location = useLocation()
+  useEffect(() => {
+
+  setPath(location.pathname)
+
+  },[location] )
+
   const user = null;
+  if (path==='/join' || path==='/login') return null
+ 
   return (
     <div
       className={`  w-full h-[10vh] md:h-[15vh] relative transition-all z-[9999] ${

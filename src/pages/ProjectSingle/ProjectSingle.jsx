@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 const ProjectSingle = () => {
   return (
     <div>
-      <div className="px-[30px] flex">
-        <div className="left w-2/3 flex flex-col">
-          <h1 className="text-xl font-[700] mt-5 mb-2">
+      <div className="px-[30px] flex md:flex-row flex-col">
+        <div className="left w-full md:w-2/3 flex flex-col">
+          <h1 className="md:text-[30px] text-[15px] leading-[30px] md:leading-[50px] text-gray-700 font-[500] mt-5 mb-2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
             possimus dicta iure quos esse commodi itaque molestias amet
             accusantium ratione?
@@ -59,9 +59,9 @@ const ProjectSingle = () => {
             <h1 className="text-[14px] font-[400] text-gray-400 mb-3">
               Related:
             </h1>
-            <div className=" flex justify-between flex-row w-full ">
+            <div className=" flex justify-between gap-3 flex-row flex-wrap w-full ">
               {topDevs.slice(0, 4).map((related) => (
-                <div className="w-[24%] cursor-pointer shadow p-1 shadow-purple-300 rounded h-[250px]">
+                <div className="w-[48%] md:w-[23%] cursor-pointer shadow p-1 shadow-purple-300 rounded h-[250px]">
                     <Link to={'/project/kuipid/m'}>
                  
                   <img
@@ -95,7 +95,7 @@ const ProjectSingle = () => {
             </div>
           </div>
         </div>
-        <div className="right flex h-screen sticky top-[15vh] items-center flex-col w-1/3">
+        <div className="right flex h-screen mt-6 sticky top-[15vh] items-center flex-col w-full md:w-1/3">
             <h1 className="text-center mb-4">Orders:</h1>
             <div className="w-[80%] h-[200px] p-2 bg-gray-100 shadow shadow-purple-300">
 

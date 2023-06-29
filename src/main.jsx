@@ -5,6 +5,7 @@ import {
   createBrowserRouter,
   Outlet,
   RouterProvider,
+  useLocation,
 }  from "react-router-dom";
 import Navbar from './components/navbar/Navbar';
 import Home from './pages/home/Home';
@@ -15,6 +16,7 @@ import Profile from './pages/Profile/Profile';
 import ProjectSingle from './pages/ProjectSingle/ProjectSingle';
 import Register from './pages/Register/Register';
 import EditProfile from './pages/Editprofile/EditProfile';
+import Login from './pages/Login/Login';
 
 const Layout = () => {
   return(
@@ -62,7 +64,11 @@ const router = createBrowserRouter([
   path:'/join',
   element:  <Register/>
 }
-     
+,
+{
+  path:'/login',
+  element:  <Login/>
+}  
  
 ]
 },

@@ -12,7 +12,7 @@ const TopDev = ({ category }) => {
   }
   return (
     <div className="h-fit w-full px-3 min-h-screen  flex flex-col  items-start">
-      <h1 className="ml-[115px] text-2xl font-[600] text-gray-600 text-left my-7">
+      <h1 className="md:ml-[115px] text-2xl font-[600] text-gray-600 text-left  my-7">
         {" "}
         {category ? category : "Top Rated Devs"}{" "}
         {category && <span className="uppercase"> Projects</span>}{" "}
@@ -59,11 +59,7 @@ const TopDev = ({ category }) => {
           </div>
         ))}
       </div>
-      <Link className="w-full flex items-center" to={`/devs`}>
-        <button className="flex mx-auto w-fit h-fit px-7 py-2 mt-6 text-purple-500  border border-purple-600 bg-transparent">
-          See More 
-        </button>
-      </Link>
+    
     </div>
   );
 };
