@@ -34,7 +34,7 @@ export const topDevs = [
         name:'Stephen Adegoke',
         expertise:['Frontend','backend'],
         stack:['Javascript','Php' ,'ReactJs', 'Html' , 'Css'],
-        userImage: '/public/assets/img1.jpg',
+        userImage: '/assets/img1.jpg',
         description:'I am an experiened fullstack developer',
         stars:5
             },
